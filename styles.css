@@ -225,4 +225,97 @@ img {
 .species-card:hover {
     transform: scale(1.05);
 }
+/* Common Section Styles */
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #0288d1;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Habitat and Conservation List Sections */
+.habitat-list, .conservation-efforts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.habitat-card, .effort-card {
+    background: #fff;
+    border: 2px solid #81d4fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.habitat-card img, .effort-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.habitat-card h3, .effort-card h3 {
+    font-size: 1.5em;
+    color: #01579b;
+    margin-top: 10px;
+}
+
+.habitat-card p, .effort-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.habitat-card:hover, .effort-card:hover {
+    transform: scale(1.05);
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    background: #fff;
+    border: 2px solid #81d4fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
 
