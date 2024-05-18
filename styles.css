@@ -138,3 +138,8 @@ footer {
 footer p {
     margin: 0;
 }
+img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
