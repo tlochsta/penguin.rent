@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #b3e5fc;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    color: #0277bd;
+    text-shadow: 2px 2px #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #01579b;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0288d1;
+    animation: shake 0.5s;
+}
+
+/* Keyframes for shake animation */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-10px); }
+    40%, 80% { transform: translateX(10px); }
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #0288d1;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Featured Section */
+.featured {
+    margin-top: 40px;
+}
+
+.featured h2 {
+    font-size: 2em;
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+.penguin-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.penguin-card {
+    background: #fff;
+    border: 2px solid #81d4fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.penguin-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.penguin-card h3 {
+    font-size: 1.5em;
+    color: #01579b;
+    margin-top: 10px;
+}
+
+.penguin-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #b3e5fc;
+    color: #01579b;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
